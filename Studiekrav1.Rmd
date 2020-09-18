@@ -10,7 +10,7 @@ output:
 ---
 
 # Innledning
-
+ 
 Reproduserbarhet kan deles inn i tre ulike begreper. Det er Goodman et al. som har beskrevet begrepene, og har de har delt dem inn i metode reproduserbarhet, resultat reproduserbarhet og robushet og generaliserbart (@goodman2016).
 
 - Moderne reproduserbarhet referer til å gi tilstrekkelig detalj om studieprosedyrer og data slik at de samme prosedyrene kan nøyaktig gjentas, både i teorien og i virkeligheten (@goodman2016). 
