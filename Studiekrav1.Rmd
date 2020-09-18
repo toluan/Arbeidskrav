@@ -1,21 +1,7 @@
 ---
 title: "R Notebook"
-output:
-  html_document:
-    df_print: paged
-    bibliography: reproducibility.bib
-    csl: apa-no-ampersand.csl
-    
-
+output: html_notebook
 ---
 
-# Innledning
- 
-Reproduserbarhet kan deles inn i tre ulike begreper. Det er Goodman et al. som har beskrevet begrepene, og har de har delt dem inn i metode reproduserbarhet, resultat reproduserbarhet og robushet og generaliserbart (@goodman2016).
-
-- Moderne reproduserbarhet referer til å gi tilstrekkelig detalj om studieprosedyrer og data slik at de samme prosedyrene kan nøyaktig gjentas, både i teorien og i virkeligheten (@goodman2016). 
-
-- Resultat reproduserbarhet referer til å oppnå de samme resultatene fra gjennomføringen av en uavhengig undersøkelse, dersom prosedyrer er så nært tilpasset det opprinnelige eksperimentet som mulig (@goodman2016). 
-
-- Robusthet referer til stabiliteten i eksperimentelle konklusjoner som  har variasjoner i enten antagelser eller eksperimentelle prosedyrer. Det er relatert til begrepet generaliserbarhet, som referer til vedvarenheten av en effekt i innstillinger som er forskjellige fra et eksperimentelt rammeverk (@goodman2016). 
+Her er Toms nye notebook
 
