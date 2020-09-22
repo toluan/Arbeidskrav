@@ -1,16 +1,22 @@
 ---
 title: "R Notebook"
+<<<<<<< HEAD
 output:
   html_document:
     df_print: paged
+=======
+>>>>>>> d9203e48b73f0be51ce93faed3b7f72f29755f0f
 bibliography: reproducibility.bib
-csl: apa-no-ampersand.csl
 lang: nb-NO
----    
+csl: apa-no-ampersand.csl
+output: html_notebook
+---
 
-# Innledning
+# Innledning 
 
-Reproduserbarhet kan deles inn i tre ulike begreper. Det er Goodman et al. som har beskrevet begrepene, og har de har delt dem inn i metode reproduserbarhet, resultat reproduserbarhet og robushet og generaliserbart (@goodman2016).
+Vitenskapen går fremover på oppdagelser og funn som vi kan ha tillit til. En viktig møte å ha tillit til disse funnene er at det er mulig å reprodusere resultatene til noe andre har funnet. Ofte er det slik at det er problemer med reproduserbarhet på mange av forskningsartiklene som blir lagt ut i forskningstidsskrifter [@mcnutt2014].
+
+Reproduserbarhet kan deles inn i tre ulike begreper. Det er Goodman et al. som har beskrevet begrepene, og har de har delt dem inn i  **metode reproduserbarhet**, *resultat reproduserbarhet* og *__robushet og generaliserbart__* (@goodman2016).
 
 - Moderne reproduserbarhet referer til å gi tilstrekkelig detalj om studieprosedyrer og data slik at de samme prosedyrene kan nøyaktig gjentas, både i teorien og i virkeligheten (@goodman2016).
 
