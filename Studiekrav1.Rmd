@@ -16,4 +16,9 @@ Reproduserbarhet kan deles inn i tre ulike begreper. Det er Goodman et al. som h
 
 - Robusthet referer til stabiliteten i eksperimentelle konklusjoner som har variasjoner i enten antagelser eller eksperimentelle prosedyrer. Det er relatert til begrepet generaliserbarhet, som referer til vedvarenheten av en effekt i innstillinger som er forskjellige fra et eksperimentelt rammeverk (@goodman2016).
 
+## Litteraturgjennomgang
+
+gjhadjhgadshjas
+bnmscbmscbmf
+
 
