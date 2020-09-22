@@ -24,5 +24,13 @@ I 1986 prøvde Dewald, Thursby og Anderson å replikere artikler de fant i "jour
 
 Etter disse funnene ble det positivt innstilt på at økonomiske artikler skulle lage arkiv så det gikk ann og reprodusere og replikere artiklene. I 2006 prøvde McCullough, McGeary og Harrison å replikere 186 emperiske artikler, hvor kun 69 hadde arkiver. 7 av disse hadde ikke mulighet på grunn av datavare. resterende 62 kunne 14 replikeres, som er en forbedring fra 2 av 54. De fleste artikler hadde ikke arkiv på grunn av null kontrollering av at de faktisk oppholdt det.[@mccullough2008]    
 
+Gentleman and Temple Lang foreslår en metode og en basis infrastruktur for å brukes til offentlige doukumtenter/artikler på en substansiell måte for å løse problemet med reproduserbarhet. Metoden egner seg best for artikler som krever bruk av databruk. De foreslo en måte der hvor du kombinerer tekst og kode i samme dokument. Disse dokumentene kan være selvstendige eller være et del av et kompendium. [@gentleman2005]
+
+R-notebook kan også være et godt program hvor kode og tekst er sammenhandlet. Samt at du har muligheten for branches og master for å lagre arbeidet underveis hvor informasjon ikke blir mistet på veien. 
+
+
+
+
+
 
 
