@@ -4,7 +4,7 @@ bibliography: reproducibility.bib
 lang: nb-NO
 csl: apa-no-ampersand.csl
 output: html_notebook
-
+<<<<<<< HEAD
 ---
     
 =======
