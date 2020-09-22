@@ -4,15 +4,6 @@ bibliography: reproducibility.bib
 lang: nb-NO
 csl: apa-no-ampersand.csl
 output: html_notebook
-<<<<<<< HEAD
----
-    
-=======
-bibliography: reproducibility.bib
-csl: apa-no-ampersand.csl
-lang: nb-NO
----    
->>>>>>> f22c22206e5212ef1931fc40e7a1ef1287e1f493
 
 # Innledning 
 
