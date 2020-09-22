@@ -1,9 +1,10 @@
 ---
 title: "R Notebook"
 output: html_notebook
----bibliography: reproducibility.bib
-    csl: apa-no-ampersad.csl
-    
+bibliography: reproducibility.bib
+csl: apa-no-ampersand.csl
+lang: nb-NO
+---    
 
 # Innledning
 
