@@ -4,10 +4,17 @@ bibliography: reproducibility.bib
 lang: nb-NO
 csl: apa-no-ampersand.csl
 output: html_notebook
+
 ---
     
+=======
+bibliography: reproducibility.bib
+csl: apa-no-ampersand.csl
+lang: nb-NO
+---    
+>>>>>>> f22c22206e5212ef1931fc40e7a1ef1287e1f493
 
-# Innledning
+# Innledning 
 
 Vitenskapen går fremover på oppdagelser og funn som vi kan ha tillit til. En viktig møte å ha tillit til disse funnene er at det er mulig å reprodusere resultatene til noe andre har funnet. Ofte er det slik at det er problemer med reproduserbarhet på mange av forskningsartiklene som blir lagt ut i forskningstidsskrifter [@mcnutt2014].
 
