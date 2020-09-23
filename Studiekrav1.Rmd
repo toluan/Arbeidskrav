@@ -1,18 +1,12 @@
 ---
-title: "R Notebook"
-<<<<<<< HEAD
-output:
-  html_document:
-    df_print: paged
-=======
->>>>>>> d9203e48b73f0be51ce93faed3b7f72f29755f0f
+title: "R Notebooks og reproduserbarhet"
 bibliography: reproducibility.bib
 lang: nb-NO
 csl: apa-no-ampersand.csl
 output: html_notebook
 ---
 
-# Innledning 
+# Innledning  
 
 Vitenskapen går fremover på oppdagelser og funn som vi kan ha tillit til. En viktig møte å ha tillit til disse funnene er at det er mulig å reprodusere resultatene til noe andre har funnet. Ofte er det slik at det er problemer med reproduserbarhet på mange av forskningsartiklene som blir lagt ut i forskningstidsskrifter [@mcnutt2014].
 
@@ -22,11 +16,7 @@ Reproduserbarhet kan deles inn i tre ulike begreper. Det er Goodman et al. som h
 
 - Resultat reproduserbarhet referer til å oppnå de samme resultatene fra gjennomføringen av en uavhengig undersøkelse, dersom prosedyrer er så nært tilpasset det opprinnelige eksperimentet som mulig (@goodman2016).
 
-<<<<<<< HEAD
 - Robusthet referer til stabiliteten i eksperimentelle konklusjoner som har variasjoner i enten antagelser eller eksperimentelle prosedyrer. Det er relatert til begrepet generaliserbarhet, som referer til vedvarenheten av en effekt i innstillinger som er forskjellige fra et eksperimentelt rammeverk @goodman2016
-=======
-- Robusthet referer til stabiliteten i eksperimentelle konklusjoner som har variasjoner i enten antagelser eller eksperimentelle prosedyrer. Det er relatert til begrepet generaliserbarhet, som referer til vedvarenheten av en effekt i innstillinger som er forskjellige fra et eksperimentelt rammeverk (@goodman2016). 
->>>>>>> 46a562a73f94aedf6d2eb3eafe3e837a60120151
 
 ## Litteraturgjennomgang
 
@@ -34,10 +24,11 @@ I 1986 prøvde Dewald, Thursby og Anderson å replikere artikler de fant i "jour
 
 Etter disse funnene ble det positivt innstilt på at økonomiske artikler skulle lage arkiv så det gikk ann og reprodusere og replikere artiklene. I 2006 prøvde McCullough, McGeary og Harrison å replikere 186 emperiske artikler, hvor kun 69 hadde arkiver. 7 av disse hadde ikke mulighet på grunn av datavare. resterende 62 kunne 14 replikeres, som er en forbedring fra 2 av 54. De fleste artikler hadde ikke arkiv på grunn av null kontrollering av at de faktisk oppholdt det.[@mccullough2008]    
 
-Gentleman and Temple Lang foreslår en metode og en basis infrastruktur for å brukes til offentlige doukumtenter/artikler på en substansiell måte for å løse problemet med reproduserbarhet. Metoden egner seg best for artikler som krever bruk av databruk. De foreslo en måte der hvor du kombinerer tekst og kode i samme dokument. Disse dokumentene kan være selvstendige eller være et del av et kompendium. [@gentleman2005]
+Gentleman and Temple Lang foreslår en metode og en basis infrastruktur for å brukes til offentlige doukumtenter/artikler på en substansiell måte for å løse problemet med reproduserbarhet. Metoden egner seg best for artikler som krever bruk av databruk. De foreslo en måte der hvor du kombinerer tekst og kode i samme dokument. Disse dokumentene kan være selvstendige eller være et del av et kompendium. [@gentleman2005] 
 
 R-notebook kan også være et godt program hvor kode og tekst er sammenhandlet. Samt at du har muligheten for branches og master for å lagre arbeidet underveis hvor informasjon ikke blir mistet på veien. 
 
+<<<<<<< HEAD
 Det finnes også andre grunner for at det kan være vanskelig å reprodusere artikler. arbeidet utført kan være mer komplekst enn først antatt. Det kan være rapportert nøye men det kan være en variabel om har blitt glemt, som gjør at det ikke kan bli replikert. Det er også mulighet for at det var kun flaks som påvirket utfallet. Det kan også være at forsøket er manipulert slik at det har en bias, som skaper ønsker resultat. [@mcnutt2014]
 
 American Statisical Assosciaton og noen andre har foreslått for Marcia Mcnutt om å øke medlemmer for deres "Board of Reviewing Editors". De skal hjelpe med å kontrollere forskere om at de driver skikkelig forskning, og opprettholde de høye standarene som kreves i forskning. Det nevnes også at det er forskerene som har hovedansvaret for å opprettholde kvaliteten på forskningen selv. [@mcnutt2014]
@@ -50,8 +41,14 @@ Funksjon 2. kontrollering for "internal validity" —som er, en forsikring av de
 Funksjon 3. Kontrollere for svindel.
 Funksjon 4. Ta i bruk generaliserbarhet.
 Funksjon 5. Ta i bruk verifisjon av den underliggende hypotosen. (@fidlerReproducibilityScientificResults2018)
+=======
+## Analyse
 
+DataCite er et stort register hvor man har prøvd å samle vitenskapelig data slik at det ikke bare blir liggende rundt hos de ulike tidsskriftene (@brase2009). Målet er å gjøre det lettere for andre å få tak i dataene. 
+>>>>>>> 1c14c3345eb3569422d2cd2e5bff6e4ac938a1ce
 
+Det å bruke "code chunks" eller "text chunk" kan være med på å gjøre det lettere å reprodusere eller replikere dataene til andre og sine egne data. Det kan gjøre at de som skal jobbe videre med det får en større forståelse over hvordan resultatene har blitt til. Noe vi tror kan være et problem er hvis det kun legges til en av "chunkene", som kan gjøre at de som skal reprodusere eller replikere ser hvordan de skal gjøre det, men at de ikke klarer å overføre det til sine egne data. Det beste vil da være å ha både koding og tekstforklaring. 
+ 
+Hvis det er lettere for andre å reprodusere eller replikere det arbeidet du har gjort, så vil det nok vær lettere å få anerkjennelse for arbeidet. Det vil være mulig å videreutvikle det du har startet, og det blir ikke bare et utforståelig arbeid som ingen kan ha utbytte av. 
 
-
-
+I dagens samfunn hvor verden bare blir mindre og man får tak i nesten all forskning på internett, blir det nok et større fokus på å reprodusere og replikere andre sitt arbeid med sine egne data og eventuelt videreutvikle arbeiedet. Det ser dermed ut til at dagens økte interesse for reproduserbarhet ikke kun er et blaff, men at det til og med bil øke i tiden fremover. Det er også et økt fokus på høyere utdanning i flere land, noe som igjen vil føre til at flere ønsker å jobbe med å produsere, reprodusere og replikere forskningsartikler. 
