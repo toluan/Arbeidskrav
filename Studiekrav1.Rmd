@@ -28,9 +28,23 @@ Gentleman and Temple Lang foreslår en metode og en basis infrastruktur for å b
 
 R-notebook kan også være et godt program hvor kode og tekst er sammenhandlet. Samt at du har muligheten for branches og master for å lagre arbeidet underveis hvor informasjon ikke blir mistet på veien. 
 
+## Analyse
 
+DataCite er et stort register hvor man har prøvd å samle vitenskapelig data slik at det ikke bare blir liggende rundt hos de ulike tidsskriftene (@brase2009). Målet er å gjøre det lettere for andre å få tak i dataene. 
 
+Det å bruke "code chunks" eller "text chunk" kan være med på å gjøre det lettere å reprodusere eller replikere dataene til andre og sine egne data. Det kan gjøre at de som skal jobbe videre med det får en større forståelse over hvordan resultatene har blitt til. Noe vi tror kan være et problem er hvis det kun legges til en av "chunkene", som kan gjøre at de som skal reprodusere eller replikere ser hvordan de skal gjøre det, men at de ikke klarer å overføre det til sine egne data. Det beste vil da være å ha både koding og tekstforklaring. 
 
+Hvis det er lettere for andre å reprodusere eller replikere det arbeidet du har gjort, så vil det nok vær lettere å få anerkjennelse for arbeidet. Det vil være mulig å videreutvikle det du har startet, og det blir ikke bare et utforståelig arbeid som ingen kan ha utbytte av. 
+
+I dagens samfunn hvor verden bare blir mindre og man får tak i nesten all forskning på internett, blir det nok et større fokus på å reprodusere og replikere andre sitt arbeid med sine egne data og eventuelt videreutvikle arbeiedet. 
+
+–Løser R notebooks problemet med reproduserbarhet∗helt eller bare delvis
+–Eksempler på «code chunks» («R Code Block») og «text chunck» i R notebook
+–Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?
+–Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens økte interessebare et blaff?
+–Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
+
+Det burde dermed ligge naturlig for forskere å ha et ønske om å at andre kan bruke arbeidet de har gjort. 
 
 
 
