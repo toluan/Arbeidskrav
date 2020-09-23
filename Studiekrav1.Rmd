@@ -36,15 +36,6 @@ Det å bruke "code chunks" eller "text chunk" kan være med på å gjøre det le
 
 Hvis det er lettere for andre å reprodusere eller replikere det arbeidet du har gjort, så vil det nok vær lettere å få anerkjennelse for arbeidet. Det vil være mulig å videreutvikle det du har startet, og det blir ikke bare et utforståelig arbeid som ingen kan ha utbytte av. 
 
-I dagens samfunn hvor verden bare blir mindre og man får tak i nesten all forskning på internett, blir det nok et større fokus på å reprodusere og replikere andre sitt arbeid med sine egne data og eventuelt videreutvikle arbeiedet. 
-
-–Løser R notebooks problemet med reproduserbarhet∗helt eller bare delvis
-–Eksempler på «code chunks» («R Code Block») og «text chunck» i R notebook
-–Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?
-–Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens økte interessebare et blaff?
-–Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
-
-Det burde dermed ligge naturlig for forskere å ha et ønske om å at andre kan bruke arbeidet de har gjort. 
-
+I dagens samfunn hvor verden bare blir mindre og man får tak i nesten all forskning på internett, blir det nok et større fokus på å reprodusere og replikere andre sitt arbeid med sine egne data og eventuelt videreutvikle arbeiedet. Det ser dermed ut til at dagens økte interesse for reproduserbarhet ikke kun er et blaff, men at det til og med bil øke i tiden fremover. Det er også et økt fokus på høyere utdanning i flere land, noe som igjen vil føre til at flere ønsker å jobbe med å produsere, reprodusere og replikere forskningsartikler. 
 
 
