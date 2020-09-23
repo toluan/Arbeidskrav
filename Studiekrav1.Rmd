@@ -3,13 +3,13 @@ title: "R Notebooks og reproduserbarhet"
 bibliography: reproducibility.bib
 lang: nb-NO
 output:
-  word_document: default
-  html_notebook: default
   html_document:
     df_print: paged
   pdf_document: default
 csl: apa-no-ampersand.csl
 ---
+
+
 # Innholdsfortegnelse
 
 1. Innledning
@@ -32,9 +32,6 @@ Reproduserbarhet kan deles inn i tre ulike begreper. Det er Goodman et al. som h
 - Resultat reproduserbarhet referer til å oppnå de samme resultatene fra gjennomføringen av en uavhengig undersøkelse, dersom prosedyrer er så nært tilpasset det opprinnelige eksperimentet som mulig (@goodman2016).
 
 - Robusthet referer til stabiliteten i eksperimentelle konklusjoner som har variasjoner i enten antagelser eller eksperimentelle prosedyrer. Det er relatert til begrepet generaliserbarhet, som referer til vedvarenheten av en effekt i innstillinger som er forskjellige fra et eksperimentelt rammeverk @goodman2016
-
-
-
 
 # Litteraturgjennomgang
 
@@ -68,6 +65,12 @@ Hvis det er lettere for andre å reprodusere eller replikere det arbeidet du har
 
 I dagens samfunn hvor verden bare blir mindre og man får tak i nesten all forskning på internett, blir det nok et større fokus på å reprodusere og replikere andre sitt arbeid med sine egne data og eventuelt videreutvikle arbeiedet. Det ser dermed ut til at dagens økte interesse for reproduserbarhet ikke kun er et blaff, men at det til og med bil øke i tiden fremover. Det er også et økt fokus på høyere utdanning i flere land, noe som igjen vil føre til at flere ønsker å jobbe med å produsere, reprodusere og replikere forskningsartikler. 
 
+Det som vil bli viktig fremover for forskningen er å bygge vaner med å dokumentere forskningen fra starten, slik at det ligger som automatikk i arbeidsmetoden. Får vi innarbeidet rutiner til forskere fremover vil dette bli automatisert også skape gode arbeidsarkiv og compendium, noe som vil føre til bedre reproduserbarhet for forskere i fremtiden som vil replikere forsøkene. 
+
+Svindel og manipulering av forskningsartikler vil også bli redusert med hyppigere kontroller, noe som vil bidra til at seriøse forskere vil bli mer annerkjent for sitt ærlige arbeid. Noe som vil skape bedre fundament for fremtidge forskere sitt arbeid, når man kan være mer sikker på at forskningsartikler har større sannsynlighet for å ha troværdige og ærlige utfall. 
+
+Mer som jobber med arkiv og kompendium vil også forbedre oversikten av informasjon, som igjen vil effektivisere lete tid og unødvendige forsøk på hypoteser som allerede har blit utarbeidet uttallige ganger fra før med samme resultat. Dette vil spare enorme ressurser for forskere og institutter som ikke trenger å teste unødvendige hypoteser. 
+
 # Konklusjon
 
 Det vi har tatt for oss i denne oppgaven er ulike eksempler, hvor det har blitt testet artikler for reproduserbarhet og replikeringsevne. Vi ser at det finnes en effekt for å skape arkiver med code chunks, tekst chunks, og compendium. For å ha ønsket effekt må det ha et system hvor det blir kontrollert og opprettholdt. 
@@ -82,8 +85,9 @@ Hvis målet er å få andre til å bruke arbeide ditt og videreutvikle det, bør
 
 ![Antall commits og branches](bracom.png)
 
+![Merge conflict](mergeconf.png)
+
 ```{r, Sessioninfo}
 sessionInfo()
 ```
-
 
