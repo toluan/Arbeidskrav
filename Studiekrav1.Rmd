@@ -34,6 +34,7 @@ Det finnes også andre grunner for at det kan være vanskelig å reprodusere art
 American Statisical Assosciaton og noen andre har foreslått for Marcia Mcnutt om å øke medlemmer for deres "Board of Reviewing Editors". De skal hjelpe med å kontrollere forskere om at de driver skikkelig forskning, og opprettholde de høye standarene som kreves i forskning. Det nevnes også at det er forskerene som har hovedansvaret for å opprettholde kvaliteten på forskningen selv. [@mcnutt2014]
 
 
+<<<<<<< HEAD
 Schmidt har fem funksjoner av replikasjon i sosisale studier. 
 
 Funksjon 1. kontrollering av informasjonshenting, for å forsikre seg om at informasjonen i deres artikkel ikke er generert av flaks eller manipulert. 
@@ -43,6 +44,13 @@ Funksjon 4. Ta i bruk generaliserbarhet.
 Funksjon 5. Ta i bruk verifisjon av den underliggende hypotosen. (@fidlerReproducibilityScientificResults2018)
 =======
 ## Analyse
+=======
+## Konklusjon
+
+Det vi har tatt for oss i denne oppgaven er ulike eksempler, hvor det har blitt testet artikler for reproduserbarhet og replikeringsevne. Vi ser at det finnes en effekt for å skape arkiver med code chunks, tekst chunks, og compendium. For å ha ønsket effekt må det ha et system hvor det blir kontrollert og opprettholdt. 
+
+Analysen viser oss at forskere gjerne vil kunne skape reproduserbare artikler. Det som er problemet er at det er dyrt og tidkrevende og lagre alt på veien. Det kan også vise til feil de har gjort under prosessen. Analysen viser oss at forskerene må nærmest bli tvunget til dette og skape rutiner for ønsket effekt. 
+>>>>>>> konklusjon
 
 DataCite er et stort register hvor man har prøvd å samle vitenskapelig data slik at det ikke bare blir liggende rundt hos de ulike tidsskriftene (@brase2009). Målet er å gjøre det lettere for andre å få tak i dataene. 
 >>>>>>> 1c14c3345eb3569422d2cd2e5bff6e4ac938a1ce
