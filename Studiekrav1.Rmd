@@ -38,4 +38,4 @@ Hvis det er lettere for andre å reprodusere eller replikere det arbeidet du har
 
 I dagens samfunn hvor verden bare blir mindre og man får tak i nesten all forskning på internett, blir det nok et større fokus på å reprodusere og replikere andre sitt arbeid med sine egne data og eventuelt videreutvikle arbeiedet. Det ser dermed ut til at dagens økte interesse for reproduserbarhet ikke kun er et blaff, men at det til og med bil øke i tiden fremover. Det er også et økt fokus på høyere utdanning i flere land, noe som igjen vil føre til at flere ønsker å jobbe med å produsere, reprodusere og replikere forskningsartikler. 
 
-
+hei
