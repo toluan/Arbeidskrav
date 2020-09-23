@@ -28,11 +28,9 @@ Gentleman and Temple Lang foreslår en metode og en basis infrastruktur for å b
 
 R-notebook kan også være et godt program hvor kode og tekst er sammenhandlet. Samt at du har muligheten for branches og master for å lagre arbeidet underveis hvor informasjon ikke blir mistet på veien. 
 
-<<<<<<< HEAD
 Det finnes også andre grunner for at det kan være vanskelig å reprodusere artikler. arbeidet utført kan være mer komplekst enn først antatt. Det kan være rapportert nøye men det kan være en variabel om har blitt glemt, som gjør at det ikke kan bli replikert. Det er også mulighet for at det var kun flaks som påvirket utfallet. Det kan også være at forsøket er manipulert slik at det har en bias, som skaper ønsker resultat. [@mcnutt2014]
 
 American Statisical Assosciaton og noen andre har foreslått for Marcia Mcnutt om å øke medlemmer for deres "Board of Reviewing Editors". De skal hjelpe med å kontrollere forskere om at de driver skikkelig forskning, og opprettholde de høye standarene som kreves i forskning. Det nevnes også at det er forskerene som har hovedansvaret for å opprettholde kvaliteten på forskningen selv. [@mcnutt2014]
-
 
 Schmidt har fem funksjoner av replikasjon i sosisale studier. 
 
@@ -41,11 +39,10 @@ Funksjon 2. kontrollering for "internal validity" —som er, en forsikring av de
 Funksjon 3. Kontrollere for svindel.
 Funksjon 4. Ta i bruk generaliserbarhet.
 Funksjon 5. Ta i bruk verifisjon av den underliggende hypotosen. (@fidlerReproducibilityScientificResults2018)
-=======
+
 ## Analyse
 
 DataCite er et stort register hvor man har prøvd å samle vitenskapelig data slik at det ikke bare blir liggende rundt hos de ulike tidsskriftene (@brase2009). Målet er å gjøre det lettere for andre å få tak i dataene. 
->>>>>>> 1c14c3345eb3569422d2cd2e5bff6e4ac938a1ce
 
 Det å bruke "code chunks" eller "text chunk" kan være med på å gjøre det lettere å reprodusere eller replikere dataene til andre og sine egne data. Det kan gjøre at de som skal jobbe videre med det får en større forståelse over hvordan resultatene har blitt til. Noe vi tror kan være et problem er hvis det kun legges til en av "chunkene", som kan gjøre at de som skal reprodusere eller replikere ser hvordan de skal gjøre det, men at de ikke klarer å overføre det til sine egne data. Det beste vil da være å ha både koding og tekstforklaring. 
  
