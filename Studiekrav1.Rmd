@@ -22,11 +22,6 @@ Reproduserbarhet kan deles inn i tre ulike begreper. Det er Goodman et al. som h
 
 - Resultat reproduserbarhet referer til å oppnå de samme resultatene fra gjennomføringen av en uavhengig undersøkelse, dersom prosedyrer er så nært tilpasset det opprinnelige eksperimentet som mulig (@goodman2016).
 
-<<<<<<< HEAD
-- Robusthet referer til stabiliteten i eksperimentelle konklusjoner som har variasjoner i enten antagelser eller eksperimentelle prosedyrer. Det er relatert til begrepet generaliserbarhet, som referer til vedvarenheten av en effekt i innstillinger som er forskjellige fra et eksperimentelt rammeverk @goodman2016
-=======
-- Robusthet referer til stabiliteten i eksperimentelle konklusjoner som har variasjoner i enten antagelser eller eksperimentelle prosedyrer. Det er relatert til begrepet generaliserbarhet, som referer til vedvarenheten av en effekt i innstillinger som er forskjellige fra et eksperimentelt rammeverk (@goodman2016). 
->>>>>>> 46a562a73f94aedf6d2eb3eafe3e837a60120151
 
 ## Litteraturgjennomgang
 
@@ -38,8 +33,9 @@ Gentleman and Temple Lang foreslår en metode og en basis infrastruktur for å b
 
 R-notebook kan også være et godt program hvor kode og tekst er sammenhandlet. Samt at du har muligheten for branches og master for å lagre arbeidet underveis hvor informasjon ikke blir mistet på veien. 
 
+## Analyse
 
-
+Ved å bruke R
 
 
 
