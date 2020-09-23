@@ -1,11 +1,5 @@
 ---
 title: "R Notebook"
-<<<<<<< HEAD
-output:
-  html_document:
-    df_print: paged
-=======
->>>>>>> d9203e48b73f0be51ce93faed3b7f72f29755f0f
 bibliography: reproducibility.bib
 lang: nb-NO
 csl: apa-no-ampersand.csl
@@ -35,8 +29,15 @@ R-notebook kan også være et godt program hvor kode og tekst er sammenhandlet. 
 
 ## Analyse
 
-Ved å bruke R
+DataCite er et stort register hvor man har prøvd å samle vitenskapelig data slik at det ikke bare blir liggende rundt hos de ulike tidsskriftene (@brase2009). Målet er å gjøre det lettere for andre å få tak i dataene. 
 
+Det å bruke "code chunks" eller "text chunk" kan være med på å gjøre det lettere å reprodusere eller replikere dataene til andre og sine egne data. Det kan gjøre at de som skal jobbe videre med det får en større forståelse over hvordan resultatene har blitt til. Noe vi tror kan være et problem er hvis det kun legges til en av "chunkene", som kan gjøre at de som skal reprodusere eller replikere ser hvordan de skal gjøre det, men at de ikke klarer å overføre det til sine egne data. 
+
+–Løser R notebooks problemet med reproduserbarhet∗helt eller bare delvis
+–Eksempler på «code chunks» («R Code Block») og «text chunck» i R notebook
+–Har forskerne incentiver til å være «reproduserbare», eller må de tvinges?
+–Er økt reproduserbarhet noe som vil tvinge seg frem eller er dagens økte interessebare et blaff?
+–Kan reproduserbarhet ha relevans i sektorer utenfor akademia?
 
 
 
