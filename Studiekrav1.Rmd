@@ -39,7 +39,8 @@ Funksjon 1. kontrollering av informasjonshenting, for å forsikre seg om at info
 Funksjon 2. kontrollering for "internal validity" —som er, en forsikring av de eksperimentelle resultatene er en valid test av hypotesen. som ikke reflekterer  reflect utilsiktet feil i utførelsen.
 Funksjon 3. Kontrollere for svindel.
 Funksjon 4. Ta i bruk generaliserbarhet.
-Funksjon 5. Ta i bruk verifisjon av den underliggende hypotosen.
+Funksjon 5. Ta i bruk verifisjon av den underliggende hypotosen. (@fidlerReproducibilityScientificResults2018)
+
 
 
 
