@@ -3,8 +3,13 @@ title: "R Notebooks og reproduserbarhet"
 bibliography: reproducibility.bib
 lang: nb-NO
 output:
+  word_document:
+    toc: yes
+  pdf_document:
+    toc: yes
   html_document:
     df_print: paged
+    toc: yes
 csl: apa-no-ampersand.csl
 ---
 
@@ -22,9 +27,9 @@ Reproduserbarhet kan deles inn i tre ulike begreper. Det er Goodman et al. som h
 
 ## Litteraturgjennomgang
 
-I 1986 prøvde Dewald, Thursby og Anderson å replikere artikler de fant i "journal of money, credit and banking." av 54 artikler greide de å replikere 2 stykker.[@mccullough2008] Problemet var at de hadde for lite info om arbeidet bak funnene deres. 
+@dewald1986 prøvde å replikere artikler de fant i "journal of money, credit and banking." av 54 artikler greide de å replikere 2 stykker. Problemet var at de hadde for lite info om arbeidet bak funnene deres. 
 
-Etter disse funnene ble det positivt innstilt på at økonomiske artikler skulle lage arkiv så det gikk ann og reprodusere og replikere artiklene. I 2006 prøvde McCullough, McGeary og Harrison å replikere 186 emperiske artikler, hvor kun 69 hadde arkiver. 7 av disse hadde ikke mulighet på grunn av datavare. resterende 62 kunne 14 replikeres, som er en forbedring fra 2 av 54. De fleste artikler hadde ikke arkiv på grunn av null kontrollering av at de faktisk oppholdt det.[@mccullough2008]    
+Etter disse funnene ble det positivt innstilt på at økonomiske artikler skulle lage arkiv så det gikk an og reprodusere og replikere artiklene. @mccullough2008 prøvde å replikere 186 emperiske artikler, hvor kun 69 hadde arkiver. 7 av disse hadde ikke mulighet på grunn av datavare. resterende 62 kunne 14 replikeres, som er en forbedring fra 2 av 54. De fleste artikler hadde ikke arkiv på grunn av null kontroller av at reglene faktisk ble overholdt. 
 
 Gentleman and Temple Lang foreslår en metode og en basis infrastruktur for å brukes til offentlige doukumtenter/artikler på en substansiell måte for å løse problemet med reproduserbarhet. Metoden egner seg best for artikler som krever bruk av databruk. De foreslo en måte der hvor du kombinerer tekst og kode i samme dokument. Disse dokumentene kan være selvstendige eller være et del av et kompendium. [@gentleman2005] 
 
@@ -48,18 +53,26 @@ DataCite er et stort register hvor man har prøvd å samle vitenskapelig data sl
 
 Det å bruke "code chunks" eller "text chunk" kan være med på å gjøre det lettere å reprodusere eller replikere dataene til andre og sine egne data. Det kan gjøre at de som skal jobbe videre med det får en større forståelse over hvordan resultatene har blitt til. Noe vi tror kan være et problem er hvis det kun legges til en av "chunkene", som kan gjøre at de som skal reprodusere eller replikere ser hvordan de skal gjøre det, men at de ikke klarer å overføre det til sine egne data. Det beste vil da være å ha både koding og tekstforklaring. 
  
-Hvis det er lettere for andre å reprodusere eller replikere det arbeidet du har gjort, så vil det nok vær lettere å få anerkjennelse for arbeidet. Det vil være mulig å videreutvikle det du har startet, og det blir ikke bare et utforståelig arbeid som ingen kan ha utbytte av. 
+Hvis det er lettere for andre å reprodusere eller replikere det arbeidet du har gjort, så vil det nok vær lettere å få anerkjennelse for arbeidet. Det vil være mulig å videreutvikle det du har startet, og det blir ikke bare et uforståelig arbeid som ingen kan ha utbytte av. 
 
-I dagens samfunn hvor verden bare blir mindre og man får tak i nesten all forskning på internett, blir det nok et større fokus på å reprodusere og replikere andre sitt arbeid med sine egne data og eventuelt videreutvikle arbeiedet. Det ser dermed ut til at dagens økte interesse for reproduserbarhet ikke kun er et blaff, men at det til og med bil øke i tiden fremover. Det er også et økt fokus på høyere utdanning i flere land, noe som igjen vil føre til at flere ønsker å jobbe med å produsere, reprodusere og replikere forskningsartikler. 
+I dagens samfunn hvor verden bare blir mindre og man får tak i nesten all forskning på internett, blir det nok et større fokus på å reprodusere og replikere andre sitt arbeid med sine egne data og eventuelt videreutvikle arbeidet. Det ser dermed ut til at dagens økte interesse for reproduserbarhet ikke kun er et blaff, men at det til og med bil øke i tiden fremover. Det er også et økt fokus på høyere utdanning i flere land, noe som igjen vil føre til at flere ønsker å jobbe med å produsere, reprodusere og replikere forskningsartikler. 
 
 Det som vil bli viktig fremover for forskningen er å bygge vaner med å dokumentere forskningen fra starten, slik at det ligger som automatikk i arbeidsmetoden. Får vi innarbeidet rutiner til forskere fremover vil dette bli automatisert også skape gode arbeidsarkiv og compendium, noe som vil føre til bedre reproduserbarhet for forskere i fremtiden som vil replikere forsøkene. 
 
-Svindel og manipulering av forskningsartikler vil også bli redusert med hyppigere kontroller, noe som vil bidra til at seriøse forskere vil bli mer annerkjent for sitt ærlige arbeid. Noe som vil skape bedre fundament for fremtidge forskere sitt arbeid, når man kan være mer sikker på at forskningsartikler har større sannsynlighet for å ha troværdige og ærlige utfall. 
+Svindel og manipulering av forskningsartikler vil også bli redusert med hyppigere kontroller, noe som vil bidra til at seriøse forskere vil bli mer anerkjent for sitt ærlige arbeid. Noe som vil skape bedre fundament for fremtidige forskere sitt arbeid, når man kan være mer sikker på at forskningsartikler har større sannsynlighet for å ha troverdige og ærlige utfall. 
 
-Mer som jobber med arkiv og kompendium vil også forbedre oversikten av informasjon, som igjen vil effektivisere lete tid og unødvendige forsøk på hypoteser som allerede har blit utarbeidet uttallige ganger fra før med samme resultat. Dette vil spare enorme ressurser for forskere og institutter som ikke trenger å teste unødvendige hypoteser. 
+Mer som jobber med arkiv og kompendium vil også forbedre oversikten av informasjon, som igjen vil effektivisere lete tid og unødvendige forsøk på hypoteser som allerede har blitt utarbeidet utallige ganger fra før med samme resultat. Dette vil spare enorme ressurser for forskere og institutter som ikke trenger å teste unødvendige hypoteser. 
 
 ## Konklusjon
 
 Det vi har tatt for oss i denne oppgaven er ulike eksempler, hvor det har blitt testet artikler for reproduserbarhet og replikeringsevne. Vi ser at det finnes en effekt for å skape arkiver med code chunks, tekst chunks, og compendium. For å ha ønsket effekt må det ha et system hvor det blir kontrollert og opprettholdt. 
 
 Analysen viser oss at forskere gjerne vil kunne skape reproduserbare artikler. Det som er problemet er at det er dyrt og tidkrevende og lagre alt på veien. Det kan også vise til feil de har gjort under prosessen. Analysen viser oss at forskerene må nærmest bli tvunget til dette og skape rutiner for ønsket effekt. 
+
+
+## Referanseliste
+<DIV id="refs"></DIV>
+
+## Appendiks
+
+![Commit historie. ](commit-history.png){width=50%}
